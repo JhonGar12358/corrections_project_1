@@ -1,4 +1,4 @@
-def es_palindromo(texto)
+def es_palindromo(texto): # Se le agragaron los dos puntos al final, para poder tener la sintaxis correcta de la función
     texto = ''.join(caracter.lower() for caracter in texto if caracter.isalnum())
     return texto == texto[::-1]
 
