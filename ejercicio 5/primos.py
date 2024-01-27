@@ -7,5 +7,5 @@ def es_primo(numero):# Se le agragaron los dos puntos al final, para poder tener
     return True # Se corrigio la palabra return
 
 limite = int(input("Ingrese el límite superior para encontrar números primos: "))
-primos = [num for num in range(2, limite + 1) if es_primo(limite)]
+primos = [num  for num in range(2, limite + 1) if es_primo(num)]
 print("Números primos:", primos)
